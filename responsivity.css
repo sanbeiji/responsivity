@@ -4,28 +4,24 @@
     http://sanbeiji.com    */
 
 /* default/really small screen styles */
-@media all {
-}
+@media all {}
+/* smartphone/tiny window basics */
+@media screen and (min-width:300px) {}
 /* smartphone portrait */
-@media screen and (min-width: 600px) and orientation:portrait {
-}
+@media screen and (min-width: 300px) and orientation:portrait {}
 /* smartphone landscape */
-@media screen and (min-width: 600px) and orientation:landscape {
-}
+@media screen and (min-width: 300px) and orientation:landscape {}
+/* tablet/small window basics */
+@media screen and (min-width: 760px) {}
 /* tablet portrait */
-@media screen and (min-width: 1000px) and orientation:portrait {
-}
+@media screen and (min-width: 760px) and orientation:portrait {}
 /* tablet landscape */
-@media screen and (min-width: 1000px) and orientation:landscape {
-}
+@media screen and (min-width: 760px) and orientation:landscape {}
 /* retina display images */
 @media screen and (min-device-pixel-ratio: 2)
 /* desktop screens */
-@media screen and (min-width: 1025px) {
-}
+@media screen and (min-width: 1025px) {}
 /* big awesome displays with maximized browsers */
-@media screen and (min-width: 1300px) {
-}
+@media screen and (min-width: 1300px) {}
 /* print */
-@media print {
-}
+@media print {}
