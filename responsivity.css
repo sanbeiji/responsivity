@@ -1,0 +1,31 @@
+/*  responsivity.css
+    A CSS framework based on responsive web design
+    Joe Lewis
+    http://sanbeiji.com    */
+
+/* default/really small screen styles */
+@media all {
+}
+/* smartphone portrait */
+@media screen and (min-width: 600px) and orientation:portrait {
+}
+/* smartphone landscape */
+@media screen and (min-width: 600px) and orientation:landscape {
+}
+/* tablet portrait */
+@media screen and (min-width: 1000px) and orientation:portrait {
+}
+/* tablet landscape */
+@media screen and (min-width: 1000px) and orientation:landscape {
+}
+/* retina display images */
+@media screen and (min-device-pixel-ratio: 2)
+/* desktop screens */
+@media screen and (min-width: 1025px) {
+}
+/* big awesome displays with maximized browsers */
+@media screen and (min-width: 1300px) {
+}
+/* print */
+@media print {
+}
